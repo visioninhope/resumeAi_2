@@ -1,0 +1,11 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Dependency directories
+node_modules/
+
+# Environment specific
+embedEtcd.yaml
+user.yaml
