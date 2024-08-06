@@ -9,3 +9,8 @@ node_modules/
 # Environment specific
 embedEtcd.yaml
 user.yaml
+
+# Ignore database runtime files
+volumes/
+
+.env
