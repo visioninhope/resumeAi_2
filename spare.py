@@ -129,3 +129,34 @@
 # docs = retriever.invoke(question)
 # doc_txt = docs[1].page_content
 # print(retrieval_grader.invoke({"question": question, "document": doc_txt}))
+
+
+
+    # Example of retrieving all entries from a collection called 'job_description_after_formatting'
+    # try:
+    #     results = client.query(
+    #         collection_name="job_description_after_formatting",
+    #         filter="",  # Assuming no specific filter is required to fetch all data
+    #         output_fields=["*"],  # Fetch all fields; adjust if vector fields or specific fields are needed
+    #         limit=100,  # Limit to 100 results; adjust as needed
+    #         timeout=30  # Timeout after 30 seconds; adjust as needed
+    #     )
+    #     for result in results:
+    #         print(result)  # This will print each document's data returned by the query
+    # except Exception as ex:
+    #     print(f"An error occurred: {ex}")
+
+
+    # # Example of retrieving all entries from a collection called 'profile_after_formatting'
+    # try:
+    #     results = client.query(
+    #         collection_name="job_description_after_formatting",
+    #         filter="",  # Assuming no specific filter is required to fetch all data
+    #         output_fields=["*"],  # Fetch all fields; adjust if vector fields or specific fields are needed
+    #         limit=100,  # Limit to 100 results; adjust as needed
+    #         timeout=30  # Timeout after 30 seconds; adjust as needed
+    #     )
+    #     for result in results:
+    #         print(result)  # This will print each document's data returned by the query
+    # except Exception as ex:
+    #     print(f"An error occurred: {ex}")
