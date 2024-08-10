@@ -1,0 +1,73 @@
+KOTAMRAJU RUSHIDEEP (He/Him)
+NYC, NY  10038| k.saraswathi1222@gmail.com | +1 201-741-1028 | LinkedIn https://www.linkedin.com/in/rushideep/ | GitHub URL:  https://github.com/rushi1222
+
+EXPERIENCE (4+ years of Experience/ FULL STACK & GEN AI Engineer)
+STUDOR	NewYork, NY
+Senior AI Engineer	June 2024
+Implemented advanced technologies such as Langchain, LLAMA Index, Milvus, RAG, MongoDB, and TensorFlow to develop a AI tool focused on assessment, analysis, and recommendation.
+Implemented TensorFlow for building and training machine learning models that effectively analyze data and provide actionable insights, enhancing decision-making processes.
+Integrated Langchain and LLAMA Index for natural language processing, enabling the AI to understand and process complex datasets, significantly improving analysis accuracy.
+Employed Milvus for efficient handling of large-scale vector data and RAG for graph analytics, which together enhance the tool’s capability to deliver precise and relevant recommendations.
+
+SPEAKHIRE	NewYork, NY
+Senior Software Engineer	July  2023 – May 2024
+Leveraged technologies such as React, Redux, Express, PostgreSQL, and Azure to enhance the SPEAKHIRE project.
+Developed advanced user interface features, including a matching algorithm that increased user engagement by 40% and reduced load times by 25%.
+Implemented responsive design principles, resulting in a 30% increase in mobile user retention by improving functionality across various devices.
+Led the redesign of the back-end architecture, creating new database structures and relationships that improved data retrieval efficiency by 50%.
+Integrated RESTful APIs and managed Azure cloud deployments, enhancing system performance with a 35% reduction in server response times and a 20% improvement in security measures.
+Applied Factory, Observer, and Decorator design patterns to streamline object creation and state management, increasing code reusability by 25% and decreasing bug rates by 10%.
+
+INSOFE	Hyderabad, Telangana
+Senior Software Engineer	July  2022 – Dec 2022
+Evaluate technologies such as React, Redux, Express, MongoDB, and MySQL to develop and enhance application features, leading to a 20% increase in user engagement through improved interaction and personalization.
+Developed new features for the profile page, enhancing user experience and engagement, which contributed to a 15% increase in daily active users.
+Implemented payment and discount coupon systems on the front-end, streamlining transaction processes and increasing conversion rates by 30% by simplifying user purchases.
+Automated back-end mail processes using Express, which significantly improved communication efficiency, reducing email response times by 50% and lowering manual effort.
+
+IINFOCOMM	Banglore, Telangana
+Software Engineer	Aug  2019 – June  2022
+Developed a full-stack farm assistance application using React.js, Redux, Spring Boot, PostgreSQL, Jenkins, Docker, and Azure, enhancing the efficiency of farm management.
+Implemented user-friendly interfaces and seamless navigation in the front-end using React.js and Redux, which improved user engagement and operational efficiency on the platform.
+Integrated Spring Boot and PostgreSQL for robust back-end services, facilitating reliable data management and real-time access to farm metrics.
+Employed Jenkins and Docker for continuous integration and deployment, ensuring smooth and reliable application updates, while Azure provided scalable cloud hosting, enhancing application availability and performance.
+
+
+
+
+TECHNICAL SKILLS 
+Programming Languages: JavaScript, Typescript, Java, C++, Python, C#
+Frameworks:  React.js, Angular, Express, Spring Boot, TensorFlow, Unity, Langchain
+Design Patterns: Singleton, Observer, Factory, Strategy, Decorator
+Libraries: Redux, RTK, Thunk, NgRx
+Database Management: MongoDB, MySQL, PostgreSQL, Milvus, Pinecone, Neo4j
+Software / Tools: Git, GitHub, Adobe XD, Figma, Docker
+
+HACKATHON  PROJECTS 
+Organizer: LabLabAI
+ProjectName: sumAI	Mar 2024
+Spearheaded the 100% development of "sumAI," an AI tool that listens to and summarizes meetings using advanced technologies like LLAMA3 for natural language processing and TogetherAI for accurate speech transcription.
+Utilized a robust technology stack including Python for scripting, TensorFlow for machine learning model development, and Milvus for 80% efficient data indexing and retrieval to create algorithms that generate succinct, actionable meeting summaries.
+Launched an automated email system for distributing meeting summaries that ensured 100% delivery to all participants, minimizing missed information and enhancing team accountability in tracking project milestones.
+
+Organizer: Microsoft
+Project Name: Sky wars	Mar 2024
+Developed "Sky wars", a 2D dog fighter jet game, inspired by "Top Gun" and "Star Wars".
+Accelerated game development by 40% using Pygame and enhanced distribution efficiency by 25% with Installer.
+
+ACADEMIC PROJECTS 
+Zombie Runner	Mar 2024
+Developed 100% of "Zombie Runner," an action game in C# using Unity, featuring advanced AI enemy behavior, optimized levels, and immersive sound design.
+
+Quantum Leap	April 2024
+Created "Quantum Leap," in C# with Unity, featuring innovative time manipulation mechanics and challenging puzzles.
+
+EDUCATION
+Pace University, Computer Science and Information Systems                                                                                          	New York, NY
+Master of Science (MS) in Computer Science                                                                                                                  	January 2023 - May 2024		
+Mahindra Ecole Centrale                                                                                                                                      Hyderabad, India Telangana                                                                                                                                                                               
+Bachelor of Science (BS) in Mechanical Engineering                                                                                                            	July 2015 - May 2019
+
+CERTIFICATIONS
+AZURE AZ900	JULY 2024
+

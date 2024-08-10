@@ -1,6 +1,5 @@
 # services/job_description_formatter.py
-
-from pymilvus import Milvus, DataType, CollectionSchema, FieldSchema
+from pymilvus import Milvus, DataType, CollectionSchema, FieldSchema,Collection
 from langchain_together.embeddings import TogetherEmbeddings
 from dotenv import load_dotenv
 import os
@@ -14,9 +13,14 @@ from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 
-
-
-def process_profile():
+def check_collection_exists(collection_name):
+    try:
+        collection = Collection(collection_name)
+        return True
+    except Exception as e:
+        return False
+ 
+def process_profile(collection_name):
     # Load environment variables
     load_dotenv()
     TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
@@ -79,7 +83,7 @@ def process_profile():
     vector_db = Milvus.from_texts(
         structured_profiles,
         embeddings,
-        collection_name="profile_generated",
+        collection_name=collection_name,
         connection_args={"host": "127.0.0.1", "port": "19530"},
     )
     return vector_db
