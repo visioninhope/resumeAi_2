@@ -13,7 +13,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-def load_and_process_documents():
+def load_and_process_documents(job_desc_collection_name):
     # Load environment variables
     load_dotenv()
     TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
@@ -81,7 +81,7 @@ def load_and_process_documents():
     vector_db = Milvus.from_texts(
         structured_documents,
         embeddings,
-        collection_name="job_description_after_formatting",
+        collection_name=job_desc_collection_name,
         connection_args={"host": "127.0.0.1", "port": "19530"},
     )
     return vector_db

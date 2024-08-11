@@ -57,6 +57,7 @@ def process_profile(collection_name):
     - **Educational Background:** (Provide details about education)
     - **Professional Experience:** (Summarize work experience)
     - **Achievements:** (Highlight significant achievements)
+    -**total years of **Professional experience**
     """,
     input_variables=["document"],
 )
