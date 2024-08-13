@@ -5,9 +5,7 @@ from services.profile import process_profile,check_collection_exists  # Make sur
 from pymilvus import connections, Collection,MilvusClient
 import time  # Import the time module at the beginning of your script
 from services.match_grader import evaluate_match
-
-
-
+from services.generate_resume import generate_resume
 
 def main():
 
@@ -62,9 +60,21 @@ def main():
     match_result = evaluate_match(job_desc_content, profile_content)
     print("Match Result:", match_result)
 
+    if match_result == "Yes":
+        resume = generate_resume(profile_content, job_desc_content)
+        print(resume)
+    else:
+        print("Not a match. Dropping collections.")
+
+    # Drop the collections
+    client.drop_collection(job_desc_collection_name)
+    client.drop_collection(profile_collection_name)
+
     # Drop the collections after the similarity search
     client.drop_collection(job_desc_collection_name)
     client.drop_collection(profile_collection_name)
+
+
 
 
 if __name__ == "__main__":
